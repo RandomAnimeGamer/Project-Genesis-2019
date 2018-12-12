@@ -1,0 +1,31 @@
+{
+    "id": "91c621ff-f161-43ee-922b-c0c8a2e46942",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_collision_terrain07",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "72050e0a-d52d-43e9-ab4c-197196f30f6a",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 0,
+    "physicsShapePoints": [
+        
+    ],
+    "physicsStartAwake": true,
+    "properties": null,
+    "solid": false,
+    "spriteId": "5f4a0618-bc95-4bad-8187-132dc4674b69",
+    "visible": false
+}
