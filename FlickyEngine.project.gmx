@@ -537,7 +537,10 @@
         <sprite>sprites\spr_flicky_logo</sprite>
         <sprite>sprites\spr_flicky_text</sprite>
         <sprite>sprites\spr_flicky_background</sprite>
+        <sprite>sprites\spr_fade_in</sprite>
         <sprite>sprites\spr_flicky_plane</sprite>
+        <sprite>sprites\spr_saturn_logo</sprite>
+        <sprite>sprites\spr_saturn_anim</sprite>
       </sprites>
     </sprites>
     <sprites name="Collision masks">
@@ -859,10 +862,15 @@
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_pal_swapper.shader</shader>
   </shaders>
+  <fonts name="fonts">
+    <font>fonts\genesis</font>
+  </fonts>
   <objects name="objects">
     <objects name="Flicky Intro/Credits">
       <objects name="Logo &amp; Setup">
         <object>objects\obj_flicky_logo</object>
+        <object>objects\obj_saturn_logo</object>
+        <object>objects\obj_saturn_title</object>
         <object>objects\obj_flicky_setup</object>
         <object>objects\obj_flicky_plane</object>
       </objects>
@@ -1152,6 +1160,7 @@
       <objects name="Fades">
         <object>objects\par_fade</object>
         <object>objects\obj_fade_next</object>
+        <object>objects\obj_fade_in</object>
         <object>objects\obj_fade_bonus</object>
         <object>objects\obj_fade_from_bonus</object>
         <object>objects\obj_fade_restart</object>
@@ -1266,7 +1275,9 @@
   </objects>
   <rooms name="rooms">
     <rooms name="Splash">
+      <room>rooms\rm_saturn_intro</room>
       <room>rooms\rm_flicky_intro</room>
+      <room>rooms\rm_saturn_title</room>
       <room>rooms\rm_flicky_init</room>
     </rooms>
     <rooms name="Zones">
