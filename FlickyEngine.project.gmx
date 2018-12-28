@@ -882,6 +882,7 @@
         <object>objects\obj_camera</object>
         <object>objects\obj_audio_manager</object>
         <object>objects\obj_level_controller</object>
+        <object>objects\obj_cut1_controller</object>
         <object>objects\obj_global_manager</object>
         <object>objects\obj_title_card_controller</object>
         <object>objects\obj_game_over</object>
@@ -1281,6 +1282,7 @@
       <room>rooms\rm_flicky_init</room>
     </rooms>
     <rooms name="Zones">
+      <room>rooms\rm_cut1</room>
       <room>rooms\rm_test_zone</room>
     </rooms>
     <rooms name="Bonus">
