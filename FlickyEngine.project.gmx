@@ -72,6 +72,14 @@
     </sounds>
     <sounds name="Background Music">
       <sound>sound\bgm_test_zone</sound>
+      <sound>sound\bgm_act_clear</sound>
+      <sound>sound\bgm_brooklyn_winter_a1</sound>
+      <sound>sound\bgm_brooklyn_winter_a2</sound>
+      <sound>sound\bgm_casino_night_a1</sound>
+      <sound>sound\bgm_casino_night_a2</sound>
+      <sound>sound\bgm_good_end</sound>
+      <sound>sound\bgm_digital_villain_a1_1</sound>
+      <sound>sound\bgm_mysic_cave_a1</sound>
     </sounds>
     <sounds name="Bonus Stages">
       <sound>sound\bgm_bonus_gumball</sound>
